@@ -4,6 +4,7 @@ import EventBind from "./components/EventBind";
 import FunctionClick from "./components/FunctionClick";
 import GreetFunction from "./components/GreetFunction";
 import Message from "./components/Message";
+import NameList from "./components/NameList";
 import ParentComponent from "./components/ParentComponent";
 import UserGreeting from "./components/UserGreeting";
 import WelcomeClass from "./components/WelcomeClass";
@@ -21,7 +22,8 @@ function App() {
       {/* <ClassClick /> */}
       {/* <EventBind /> */}
       {/* <ParentComponent /> */}
-      <UserGreeting />
+      {/* <UserGreeting /> */}
+      <NameList />
     </div>
   );
 }

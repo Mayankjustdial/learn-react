@@ -13,11 +13,11 @@ class UserGreeting extends Component {
     // 0. ==================Using Short Circuit operator===================================
     // this.state.isLoggedIn && <div>Welcome Mayank</div>
     // 1. =============================Using Terniary Operator ===========================
-    // return this.state.isLoggedIn ? (
-    //   <div>Welcome Mayank</div>
-    // ) : (
-    //   <div>Welcome Guest</div>
-    // );
+    return this.state.isLoggedIn ? (
+      <div>Welcome Mayank</div>
+    ) : (
+      <div>Welcome Guest</div>
+    );
     //  2.  =======================Using Element Variable ==========================
     // let message;
     // if (this.state.isLoggedIn) {

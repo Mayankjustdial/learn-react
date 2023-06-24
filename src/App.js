@@ -1,16 +1,16 @@
-import React, { Component } from "react";
-import PostList from "./components/PostList";
-import PostForm from "./components/PostForm";
+import React from "react";
+import ClassCounter from "./components/ClassCounter";
+import HookCounter from "./components/HookCounter";
 
-export class App extends Component {
-  render() {
-    return (
+function App() {
+  return (
+    <div>
       <div>
-        {/* <PostList /> */}
-        <PostForm />
+        {/* <ClassCounter /> */}
+        <HookCounter />
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default App;

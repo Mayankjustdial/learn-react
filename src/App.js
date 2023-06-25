@@ -1,10 +1,12 @@
 import React from "react";
-import HookCounter4 from "./components/HookCounter4";
+import ClassCounterOne from "./components/ClassCounterOne";
+import HookCounterOne from "./components/HookCounterOne";
 
 function App() {
   return (
     <div>
-      <HookCounter4 />
+      {/* <ClassCounterOne /> */}
+      <HookCounterOne />
     </div>
   );
 }
